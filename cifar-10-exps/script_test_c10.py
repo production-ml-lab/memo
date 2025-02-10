@@ -10,7 +10,8 @@ args = parser.parse_args()
 experiment = args.experiment
 resume = args.resume
 
-dataroot = '/path/to/cifar10/datasets/'  # EDIT THIS
+# dataroot = '/path/to/cifar10/datasets/'  # EDIT THIS
+dataroot = './cifar10/datasets/'  # EDIT THIS
 
 if experiment == 'cifar10':
     corruptions = ['original']
